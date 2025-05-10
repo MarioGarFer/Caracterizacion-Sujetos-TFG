@@ -1,0 +1,59 @@
+...,ITR,...,.+.,0.6190476190476191
+
+Resultados para 1dB:
+Top combinaciones para ITR:
+
+SignalDetected + RobustnessIndex  0.666667
+DetectionRate + RobustnessIndex  0.666667
+
+Top combinaciones para BCI:
+
+SignalDetected + DetectedTimePercentage + PowerSkewness + StrongResponses,0.8095238095238095
+SignalDetected + DetectedTimePercentage + PowerSkewness + RobustnessIndex + StrongResponses,0.8095238095238095
+SignalDetected + AvgPower + PowerVariability + DetectionPctVar + PowerSkewness + RobustnessIndex + FreqEntropy,0.8095238095238095
+SignalDetected + AvgPower + PowerVariability + DetectionPctVar + PowerSkewness + FreqEntropy,0.8095238095238095
+AvgPower + PowerVariability + DetectionRate + DetectionPctVar + PowerSkewness + RobustnessIndex + FreqEntropy,0.8095238095238095
+AvgPower + PowerVariability + DetectionRate + DetectionPctVar + PowerSkewness + FreqEntropy,0.8095238095238095
+DetectedTimePercentage + DetectionRate + PowerSkewness + RobustnessIndex + StrongResponses,0.8095238095238095
+DetectedTimePercentage + DetectionRate + PowerSkewness + StrongResponses,0.8095238095238095
+
+
+Resultados para 3dB:
+Top combinaciones para ITR:
+
+SignalDetected,0.6190476190476191
+DetectionRate,0.6190476190476191
+SignalDetected + DetectionRate,0.6190476190476191
+SignalDetected + PowerVariability + DetectionRate + DetectionPctVar + PowerSkewness + RobustnessIndex,0.6190476190476191
+SignalDetected + PowerVariability + DetectionRate + DetectionPctVar + PowerSkewness,0.6190476190476191
+
+Top combinaciones para BCI:
+
+SignalDetected + DetectionPctVar + FreqEntropy,0.7619047619047619
+SignalDetected + DetectionPctVar + RobustnessIndex + FreqEntropy,0.7619047619047619
+SignalDetected + AvgPower + PowerVariability + DetectionTime + DetectionRate + DetectionPctVar + EarlyDetectionRatio + PowerSkewness + RobustnessIndex,0.7619047619047619
+SignalDetected + AvgPower + PowerVariability + DetectionTime + DetectionRate + DetectionPctVar + EarlyDetectionRatio + PowerSkewness,0.7619047619047619
+
+Resultados para 5dB:
+Top combinaciones para ITR:
+
+SignalDetected,0.6190476190476191
+DetectionRate,0.6190476190476191
+SignalDetected + DetectionRate,0.6190476190476191
+SignalDetected + DetectedTimePercentage + DetectionTime + DetectionRate + DetectionPctVar + PowerSkewness + RobustnessIndex + FreqEntropy,0.6190476190476191
+SignalDetected + DetectedTimePercentage + DetectionTime + DetectionRate + DetectionPctVar + FreqEntropy,0.6190476190476191
+SignalDetected + DetectedTimePercentage + DetectionTime + DetectionRate + DetectionPctVar + RobustnessIndex + FreqEntropy,0.6190476190476191
+SignalDetected + DetectionTime + DetectionRate + DetectionPctVar + FreqEntropy + StrongResponses,0.6190476190476191
+SignalDetected + DetectionTime + DetectionRate + DetectionPctVar + RobustnessIndex + FreqEntropy + StrongResponses,0.6190476190476191
+
+
+Top combinaciones para BCI:
+SignalDetected + AvgPower + DetectedTimePercentage + DetectionRate + DetectionPctVar + PowerSkewness + FreqEntropy,0.7619047619047619
+SignalDetected + AvgPower + DetectedTimePercentage + DetectionRate + DetectionPctVar + PowerSkewness + RobustnessIndex + FreqEntropy,0.7619047619047619
+SignalDetected + AvgPower + DetectedTimePercentage + DetectionPctVar + PowerSkewness + FreqEntropy,0.7619047619047619
+SignalDetected + AvgPower + DetectedTimePercentage + DetectionPctVar + PowerSkewness + RobustnessIndex + FreqEntropy,0.7619047619047619
+SignalDetected + DetectionRate + DetectionPctVar + PowerSkewness + StrongResponses,0.7619047619047619
+SignalDetected + DetectionRate + DetectionPctVar + PowerSkewness + RobustnessIndex + StrongResponses,0.7619047619047619
+AvgPower + DetectedTimePercentage + DetectionRate + DetectionPctVar + PowerSkewness + FreqEntropy,0.7619047619047619
+AvgPower + DetectedTimePercentage + DetectionRate + DetectionPctVar + PowerSkewness + RobustnessIndex + FreqEntropy,0.7619047619047619
+
